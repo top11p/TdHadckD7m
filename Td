@@ -1,0 +1,1290 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local TdHackD7m = Instance.new("ScreenGui")
+local TdHackD7m_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TelePort = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Esp = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local PART = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Desc = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Bar = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local Desc_2 = Instance.new("TextLabel")
+local Name = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local Name_2 = Instance.new("TextLabel")
+local Desc_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Bar_2 = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
+local Desc_4 = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Name_3 = Instance.new("TextLabel")
+local Desc_5 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Bar_3 = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local Desc_6 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Name_4 = Instance.new("TextLabel")
+local Desc_7 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local Bar_4 = Instance.new("TextBox")
+local UICorner_13 = Instance.new("UICorner")
+local Desc_8 = Instance.new("TextLabel")
+local AutoJump = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local FIRE = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local textButton = Instance.new("TextButton")
+local Text11 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+
+-- Properties
+
+TdHackD7m.Name = "TdHackD7m"
+TdHackD7m.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TdHackD7m.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TdHackD7m_2.Name = "TdHackD7m"
+TdHackD7m_2.Parent = TdHackD7m
+TdHackD7m_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TdHackD7m_2.BackgroundTransparency = 0.6000000238418579
+TdHackD7m_2.BorderColor3 = Color3.new(0, 0, 0)
+TdHackD7m_2.BorderSizePixel = 0
+TdHackD7m_2.Position = UDim2.new(0.366066456, 0, 0.274896383, 0)
+TdHackD7m_2.Size = UDim2.new(0, 437, 0, 281)
+
+UICorner.Parent = TdHackD7m_2
+
+ScrollingFrame.Parent = TdHackD7m_2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.new(0.470588, 0.470588, 0.470588)
+ScrollingFrame.BackgroundTransparency = 0.4000000059604645
+ScrollingFrame.BorderColor3 = Color3.new(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 437, 0, 281)
+
+UICorner_2.Parent = ScrollingFrame
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.368421048, 0, 0.10320285, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "__________________________________________________________________________________________________"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextSize = 14
+
+TelePort.Name = "TelePort"
+TelePort.Parent = ScrollingFrame
+TelePort.BackgroundColor3 = Color3.new(1, 1, 1)
+TelePort.BackgroundTransparency = 0.8999999761581421
+TelePort.BorderColor3 = Color3.new(0, 0, 0)
+TelePort.BorderSizePixel = 0
+TelePort.Size = UDim2.new(0, 112, 0, 29)
+TelePort.Font = Enum.Font.Unknown
+TelePort.Text = "TelePort"
+TelePort.TextColor3 = Color3.new(0, 0, 0)
+TelePort.TextSize = 18
+
+UICorner_3.Parent = TelePort
+
+Esp.Name = "Esp"
+Esp.Parent = ScrollingFrame
+Esp.BackgroundColor3 = Color3.new(1, 1, 1)
+Esp.BackgroundTransparency = 0.8999999761581421
+Esp.BorderColor3 = Color3.new(0, 0, 0)
+Esp.BorderSizePixel = 0
+Esp.Position = UDim2.new(0.274599552, 0, 0, 0)
+Esp.Size = UDim2.new(0, 112, 0, 29)
+Esp.Font = Enum.Font.Unknown
+Esp.Text = "Esp-User"
+Esp.TextColor3 = Color3.new(0, 0, 0)
+Esp.TextSize = 18
+
+UICorner_4.Parent = Esp
+
+PART.Name = "PART"
+PART.Parent = ScrollingFrame
+PART.BackgroundColor3 = Color3.new(1, 1, 1)
+PART.BackgroundTransparency = 0.8999999761581421
+PART.BorderColor3 = Color3.new(0, 0, 0)
+PART.BorderSizePixel = 0
+PART.Position = UDim2.new(0.558352411, 0, 0, 0)
+PART.Size = UDim2.new(0, 112, 0, 29)
+PART.Font = Enum.Font.Unknown
+PART.Text = "Part"
+PART.TextColor3 = Color3.new(0, 0, 0)
+PART.TextSize = 18
+
+UICorner_5.Parent = PART
+
+Frame.Name = "سرعة"
+Frame.Parent = ScrollingFrame
+Frame.BackgroundColor3 = Color3.new(0.164706, 0.172549, 0.180392)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0173439011, 0, 0.166999131, 0)
+Frame.Size = UDim2.new(0, 125, 0, 92)
+
+UICorner_6.Parent = Frame
+
+Desc.Name = "Desc"
+Desc.Parent = Frame
+Desc.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc.BackgroundTransparency = 1
+Desc.BorderColor3 = Color3.new(0, 0, 0)
+Desc.BorderSizePixel = 0
+Desc.Position = UDim2.new(0.0370403863, 0, 0.315234572, 0)
+Desc.Size = UDim2.new(0.937131524, 0, 0.164778545, 0)
+Desc.Font = Enum.Font.Unknown
+Desc.Text = "حدد السرعة المناسبة "
+Desc.TextColor3 = Color3.new(1, 1, 1)
+Desc.TextScaled = true
+Desc.TextSize = 14
+Desc.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 1.1746113300323486
+
+Bar.Name = "Bar"
+Bar.Parent = Frame
+Bar.BackgroundColor3 = Color3.new(0.305882, 0.309804, 0.309804)
+Bar.BackgroundTransparency = 0.5
+Bar.BorderColor3 = Color3.new(0, 0, 0)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0.175342754, 0, 0.560315311, 0)
+Bar.Size = UDim2.new(0.643466592, 0, 0.181549966, 0)
+Bar.Font = Enum.Font.Unknown
+Bar.PlaceholderColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar.PlaceholderText = "1-999999"
+Bar.Text = ""
+Bar.TextColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar.TextScaled = true
+Bar.TextSize = 14
+Bar.TextStrokeColor3 = Color3.new(1, 1, 1)
+Bar.TextWrapped = true
+
+UICorner_7.Parent = Bar
+
+Desc_2.Name = "Desc"
+Desc_2.Parent = Frame
+Desc_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_2.BackgroundTransparency = 1
+Desc_2.BorderColor3 = Color3.new(0, 0, 0)
+Desc_2.BorderSizePixel = 0
+Desc_2.Position = UDim2.new(0.15560925, 0, 0.779460728, 0)
+Desc_2.Size = UDim2.new(0.727999985, 0, 0.130999997, 0)
+Desc_2.Font = Enum.Font.Unknown
+Desc_2.Text = "السرعة العاديه - 16"
+Desc_2.TextColor3 = Color3.new(1, 1, 1)
+Desc_2.TextScaled = true
+Desc_2.TextSize = 1
+Desc_2.TextWrapped = true
+
+Name.Name = "Name"
+Name.Parent = Frame
+Name.BackgroundColor3 = Color3.new(1, 1, 1)
+Name.BackgroundTransparency = 1
+Name.BorderColor3 = Color3.new(0, 0, 0)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.145252153, 0, 0.0993061215, 0)
+Name.Size = UDim2.new(0.620390356, 0, 0.18997018, 0)
+Name.Font = Enum.Font.Unknown
+Name.Text = "سرعة"
+Name.TextColor3 = Color3.new(1, 1, 1)
+Name.TextScaled = true
+Name.TextSize = 14
+Name.TextWrapped = true
+
+Frame_2.Name = "طيران"
+Frame_2.Parent = ScrollingFrame
+Frame_2.BackgroundColor3 = Color3.new(0.164706, 0.172549, 0.180392)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.281611055, 0, 0.170676887, 0)
+Frame_2.Size = UDim2.new(0, 125, 0, 92)
+
+UICorner_8.Parent = Frame_2
+
+Name_2.Name = "Name"
+Name_2.Parent = Frame_2
+Name_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Name_2.BackgroundTransparency = 1
+Name_2.BorderColor3 = Color3.new(0, 0, 0)
+Name_2.BorderSizePixel = 0
+Name_2.Position = UDim2.new(0.145252153, 0, 0.0993061215, 0)
+Name_2.Size = UDim2.new(0.620390356, 0, 0.18997018, 0)
+Name_2.Font = Enum.Font.Unknown
+Name_2.Text = "طيران"
+Name_2.TextColor3 = Color3.new(1, 1, 1)
+Name_2.TextScaled = true
+Name_2.TextSize = 14
+Name_2.TextWrapped = true
+
+Desc_3.Name = "Desc"
+Desc_3.Parent = Frame_2
+Desc_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_3.BackgroundTransparency = 1
+Desc_3.BorderColor3 = Color3.new(0, 0, 0)
+Desc_3.BorderSizePixel = 0
+Desc_3.Position = UDim2.new(0.0370403863, 0, 0.315234572, 0)
+Desc_3.Size = UDim2.new(0.937131524, 0, 0.164778545, 0)
+Desc_3.Font = Enum.Font.Unknown
+Desc_3.Text = "حدد السرعة المناسبة "
+Desc_3.TextColor3 = Color3.new(1, 1, 1)
+Desc_3.TextScaled = true
+Desc_3.TextSize = 14
+Desc_3.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = Frame_2
+UIAspectRatioConstraint_2.AspectRatio = 1.1746113300323486
+
+Bar_2.Name = "Bar"
+Bar_2.Parent = Frame_2
+Bar_2.BackgroundColor3 = Color3.new(0.305882, 0.309804, 0.309804)
+Bar_2.BackgroundTransparency = 0.5
+Bar_2.BorderColor3 = Color3.new(0, 0, 0)
+Bar_2.BorderSizePixel = 0
+Bar_2.Position = UDim2.new(0.175342754, 0, 0.560315311, 0)
+Bar_2.Size = UDim2.new(0.643466592, 0, 0.181549966, 0)
+Bar_2.Font = Enum.Font.Unknown
+Bar_2.PlaceholderColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar_2.PlaceholderText = "1-999999"
+Bar_2.Text = ""
+Bar_2.TextColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar_2.TextScaled = true
+Bar_2.TextSize = 14
+Bar_2.TextStrokeColor3 = Color3.new(1, 1, 1)
+Bar_2.TextWrapped = true
+
+UICorner_9.Parent = Bar_2
+
+Desc_4.Name = "Desc"
+Desc_4.Parent = Frame_2
+Desc_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_4.BackgroundTransparency = 1
+Desc_4.BorderColor3 = Color3.new(0, 0, 0)
+Desc_4.BorderSizePixel = 0
+Desc_4.Position = UDim2.new(0.17411676, 0, 0.780896366, 0)
+Desc_4.Size = UDim2.new(0.727976501, 0, 0.131173015, 0)
+Desc_4.Font = Enum.Font.Unknown
+Desc_4.Text = "السرعة العاديه - 50"
+Desc_4.TextColor3 = Color3.new(1, 1, 1)
+Desc_4.TextScaled = true
+Desc_4.TextSize = 1
+Desc_4.TextWrapped = true
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.868048549, 0, 0.149188161, 0)
+TextLabel_2.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "TD Hack"
+TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_2.TextSize = 22
+
+Frame_3.Name = "نط"
+Frame_3.Parent = ScrollingFrame
+Frame_3.BackgroundColor3 = Color3.new(0.164706, 0.172549, 0.180392)
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.560787261, 0, 0.170252025, 0)
+Frame_3.Size = UDim2.new(0, 125, 0, 92)
+
+UICorner_10.Parent = Frame_3
+
+Name_3.Name = "Name"
+Name_3.Parent = Frame_3
+Name_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Name_3.BackgroundTransparency = 1
+Name_3.BorderColor3 = Color3.new(0, 0, 0)
+Name_3.BorderSizePixel = 0
+Name_3.Position = UDim2.new(0.145252153, 0, 0.0993061215, 0)
+Name_3.Size = UDim2.new(0.620390356, 0, 0.18997018, 0)
+Name_3.Font = Enum.Font.Unknown
+Name_3.Text = "نط : Jump"
+Name_3.TextColor3 = Color3.new(1, 1, 1)
+Name_3.TextScaled = true
+Name_3.TextSize = 14
+Name_3.TextWrapped = true
+
+Desc_5.Name = "Desc"
+Desc_5.Parent = Frame_3
+Desc_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_5.BackgroundTransparency = 1
+Desc_5.BorderColor3 = Color3.new(0, 0, 0)
+Desc_5.BorderSizePixel = 0
+Desc_5.Position = UDim2.new(0.0370403863, 0, 0.315234572, 0)
+Desc_5.Size = UDim2.new(0.937131524, 0, 0.164778545, 0)
+Desc_5.Font = Enum.Font.Unknown
+Desc_5.Text = "حدد السرعة المناسبة "
+Desc_5.TextColor3 = Color3.new(1, 1, 1)
+Desc_5.TextScaled = true
+Desc_5.TextSize = 14
+Desc_5.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = Frame_3
+UIAspectRatioConstraint_3.AspectRatio = 1.1746113300323486
+
+Bar_3.Name = "Bar"
+Bar_3.Parent = Frame_3
+Bar_3.BackgroundColor3 = Color3.new(0.305882, 0.309804, 0.309804)
+Bar_3.BackgroundTransparency = 0.5
+Bar_3.BorderColor3 = Color3.new(0, 0, 0)
+Bar_3.BorderSizePixel = 0
+Bar_3.Position = UDim2.new(0.175342754, 0, 0.560315311, 0)
+Bar_3.Size = UDim2.new(0.643466592, 0, 0.181549966, 0)
+Bar_3.Font = Enum.Font.Unknown
+Bar_3.PlaceholderColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar_3.PlaceholderText = "1-999999"
+Bar_3.Text = ""
+Bar_3.TextColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar_3.TextScaled = true
+Bar_3.TextSize = 14
+Bar_3.TextStrokeColor3 = Color3.new(1, 1, 1)
+Bar_3.TextWrapped = true
+
+UICorner_11.Parent = Bar_3
+
+Desc_6.Name = "Desc"
+Desc_6.Parent = Frame_3
+Desc_6.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_6.BackgroundTransparency = 1
+Desc_6.BorderColor3 = Color3.new(0, 0, 0)
+Desc_6.BorderSizePixel = 0
+Desc_6.Position = UDim2.new(0.14525187, 0, 0.780896366, 0)
+Desc_6.Size = UDim2.new(0.756841481, 0, 0.219103321, 0)
+Desc_6.Font = Enum.Font.Unknown
+Desc_6.Text = "النطة العاديه - 50"
+Desc_6.TextColor3 = Color3.new(1, 1, 1)
+Desc_6.TextScaled = true
+Desc_6.TextSize = 1
+Desc_6.TextWrapped = true
+
+Frame_4.Name = "رساله"
+Frame_4.Parent = ScrollingFrame
+Frame_4.BackgroundColor3 = Color3.new(0.164706, 0.172549, 0.180392)
+Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0207414776, 0, 0.366548032, 0)
+Frame_4.Size = UDim2.new(0, 125, 0, 92)
+
+UICorner_12.Parent = Frame_4
+
+Name_4.Name = "Name"
+Name_4.Parent = Frame_4
+Name_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Name_4.BackgroundTransparency = 1
+Name_4.BorderColor3 = Color3.new(0, 0, 0)
+Name_4.BorderSizePixel = 0
+Name_4.Position = UDim2.new(0.145252153, 0, 0.0993061215, 0)
+Name_4.Size = UDim2.new(0.620390356, 0, 0.18997018, 0)
+Name_4.Font = Enum.Font.Unknown
+Name_4.Text = "رساله : Chat"
+Name_4.TextColor3 = Color3.new(1, 1, 1)
+Name_4.TextScaled = true
+Name_4.TextSize = 14
+Name_4.TextWrapped = true
+
+Desc_7.Name = "Desc"
+Desc_7.Parent = Frame_4
+Desc_7.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_7.BackgroundTransparency = 1
+Desc_7.BorderColor3 = Color3.new(0, 0, 0)
+Desc_7.BorderSizePixel = 0
+Desc_7.Position = UDim2.new(0.0370403863, 0, 0.315234572, 0)
+Desc_7.Size = UDim2.new(0.937131524, 0, 0.164778545, 0)
+Desc_7.Font = Enum.Font.Unknown
+Desc_7.Text = "ارسل الرسالة الي تبيها"
+Desc_7.TextColor3 = Color3.new(1, 1, 1)
+Desc_7.TextScaled = true
+Desc_7.TextSize = 14
+Desc_7.TextWrapped = true
+
+UIAspectRatioConstraint_4.Parent = Frame_4
+UIAspectRatioConstraint_4.AspectRatio = 1.1746113300323486
+
+Bar_4.Name = "Bar"
+Bar_4.Parent = Frame_4
+Bar_4.BackgroundColor3 = Color3.new(0.305882, 0.309804, 0.309804)
+Bar_4.BackgroundTransparency = 0.5
+Bar_4.BorderColor3 = Color3.new(0, 0, 0)
+Bar_4.BorderSizePixel = 0
+Bar_4.Position = UDim2.new(0.175342754, 0, 0.560315311, 0)
+Bar_4.Size = UDim2.new(0.643466592, 0, 0.181549966, 0)
+Bar_4.Font = Enum.Font.Unknown
+Bar_4.PlaceholderColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar_4.PlaceholderText = "..."
+Bar_4.Text = ""
+Bar_4.TextColor3 = Color3.new(0.52549, 0.533333, 0.533333)
+Bar_4.TextScaled = true
+Bar_4.TextSize = 14
+Bar_4.TextStrokeColor3 = Color3.new(1, 1, 1)
+Bar_4.TextWrapped = true
+
+UICorner_13.Parent = Bar_4
+
+Desc_8.Name = "Desc"
+Desc_8.Parent = Frame_4
+Desc_8.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_8.BackgroundTransparency = 1
+Desc_8.BorderColor3 = Color3.new(0, 0, 0)
+Desc_8.BorderSizePixel = 0
+Desc_8.Position = UDim2.new(0.14525187, 0, 0.780896366, 0)
+Desc_8.Size = UDim2.new(0.756841481, 0, 0.219103321, 0)
+Desc_8.Font = Enum.Font.Unknown
+Desc_8.Text = "الرساله بتنرسل بـشات الماب"
+Desc_8.TextColor3 = Color3.new(1, 1, 1)
+Desc_8.TextScaled = true
+Desc_8.TextSize = 1
+Desc_8.TextWrapped = true
+
+AutoJump.Name = "AutoJump"
+AutoJump.Parent = ScrollingFrame
+AutoJump.BackgroundColor3 = Color3.new(1, 1, 1)
+AutoJump.BackgroundTransparency = 0.8999999761581421
+AutoJump.BorderColor3 = Color3.new(0, 0, 0)
+AutoJump.BorderSizePixel = 0
+AutoJump.Position = UDim2.new(0, 0, 0.0747330934, 0)
+AutoJump.Size = UDim2.new(0, 112, 0, 29)
+AutoJump.Font = Enum.Font.Unknown
+AutoJump.Text = "AutoJump"
+AutoJump.TextColor3 = Color3.new(0, 0, 0)
+AutoJump.TextSize = 18
+
+UICorner_14.Parent = AutoJump
+
+FIRE.Name = "FIRE"
+FIRE.Parent = ScrollingFrame
+FIRE.BackgroundColor3 = Color3.new(1, 1, 1)
+FIRE.BackgroundTransparency = 0.8999999761581421
+FIRE.BorderColor3 = Color3.new(0, 0, 0)
+FIRE.BorderSizePixel = 0
+FIRE.Position = UDim2.new(0.272311211, 0, 0.0711743757, 0)
+FIRE.Size = UDim2.new(0, 112, 0, 29)
+FIRE.Font = Enum.Font.Unknown
+FIRE.Text = "Fire"
+FIRE.TextColor3 = Color3.new(0, 0, 0)
+FIRE.TextSize = 18
+
+UICorner_15.Parent = FIRE
+
+textButton.Name = "textButton"
+textButton.Parent = TdHackD7m_2
+textButton.BackgroundColor3 = Color3.new(1, 1, 1)
+textButton.BackgroundTransparency = 1
+textButton.BorderColor3 = Color3.new(0, 0, 0)
+textButton.BorderSizePixel = 0
+textButton.Position = UDim2.new(0.530892432, 0, -0.206405699, 0)
+textButton.Size = UDim2.new(0, 200, 0, 50)
+textButton.Font = Enum.Font.SourceSansBold
+textButton.Text = "https://discord.gg/d7m"
+textButton.TextColor3 = Color3.new(0, 0, 0)
+textButton.TextSize = 26
+
+Text11.Name = "Text11"
+Text11.Parent = TdHackD7m_2
+Text11.BackgroundColor3 = Color3.new(1, 1, 1)
+Text11.BackgroundTransparency = 0.4000000059604645
+Text11.BorderColor3 = Color3.new(0, 0, 0)
+Text11.BorderSizePixel = 0
+Text11.Position = UDim2.new(1.03658116, 0, 0.0177935939, 0)
+Text11.Size = UDim2.new(0, 200, 0, 78)
+Text11.Font = Enum.Font.SourceSans
+Text11.Text = "ملاحظة : اذا تبي تطفي السكربت اضغط الزر مره ثانيه "
+Text11.TextColor3 = Color3.new(0, 0, 0)
+Text11.TextScaled = true
+Text11.TextSize = 14
+Text11.TextStrokeColor3 = Color3.new(1, 1, 1)
+Text11.TextWrapped = true
+
+UICorner_16.Parent = Text11
+
+ImageLabel.Parent = TdHackD7m_2
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BackgroundTransparency = 1
+ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(1.48033667, 0, -0.175126269, 0)
+ImageLabel.Size = UDim2.new(0, 78, 0, 67)
+ImageLabel.Image = "rbxassetid://120915780124755"
+
+-- Scripts
+
+local function WIAYAK_fake_script() -- TdHackD7m_2.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', TdHackD7m_2)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(WIAYAK_fake_script)()
+local function TQAPWG_fake_script() -- TelePort.LocalScript 
+	local script = Instance.new('LocalScript', TelePort)
+
+	local BTN = script.Parent
+	local tweenService = game:GetService("TweenService")
+	
+	local function tweenTransparency(targetTransparency)
+		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+		local tween = tweenService:Create(BTN.UIStroke, tweenInfo, { Transparency = targetTransparency })
+		tween:Play()
+	end
+	
+	BTN.MouseEnter:Connect(function()
+		tweenTransparency(0)
+	end)
+	
+	BTN.MouseLeave:Connect(function()
+		tweenTransparency(1)
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+		local tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "TD | Teleport"
+	
+		tool.Activated:Connect(function()
+			if mouse.Hit then
+				local pos = mouse.Hit.Position + Vector3.new(0, 2.5, 0)
+				player.Character.HumanoidRootPart.CFrame = CFrame.new(pos)
+			end
+		end)
+	
+		tool.Parent = player.Backpack
+	end)
+	
+	
+	
+end
+coroutine.wrap(TQAPWG_fake_script)()
+local function HOYFNO_fake_script() -- Esp.LocalScript 
+	local script = Instance.new('LocalScript', Esp)
+
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local nightVisionActive = false
+	
+	button.MouseButton1Click:Connect(function()
+		nightVisionActive = not nightVisionActive
+	
+		if nightVisionActive then
+			-- تفعيل الرؤية الليلية واسم اللاعب فوق الرأس
+			for _, player in pairs(players:GetPlayers()) do
+				local character = player.Character
+				if character and character:FindFirstChild("Head") then
+					-- إضافة تأثير الرؤية الليلية
+					local nvGui = Instance.new("BillboardGui")
+					nvGui.Name = "NightVision"
+					nvGui.Size = UDim2.new(2, 0, 2, 0)
+					nvGui.Adornee = character.Head
+					nvGui.AlwaysOnTop = true
+	
+					local nvFrame = Instance.new("Frame")
+					nvFrame.Size = UDim2.new(1, 0, 1, 0)
+					nvFrame.BackgroundColor3 = Color3.new(0, 1, 0) -- لون أخضر للرؤية الليلية
+					nvFrame.BackgroundTransparency = 0.7
+					nvFrame.Parent = nvGui
+	
+					-- إضافة اسم اللاعب فوق الرأس
+					local nameTag = Instance.new("BillboardGui")
+					nameTag.Size = UDim2.new(5, 0, 1, 0)
+					nameTag.Adornee = character.Head
+					nameTag.AlwaysOnTop = true
+	
+					local nameLabel = Instance.new("TextLabel")
+					nameLabel.Size = UDim2.new(1, 0, 1, 0)
+					nameLabel.BackgroundTransparency = 1
+					nameLabel.Text = player.Name
+					nameLabel.TextColor3 = Color3.new(1, 1, 1)  -- لون أبيض
+					nameLabel.TextScaled = true
+					nameLabel.Parent = nameTag
+	
+					nvGui.Parent = character.Head
+					nameTag.Parent = character.Head
+				end
+			end
+		else
+			-- إيقاف الرؤية الليلية واسم اللاعب
+			for _, player in pairs(players:GetPlayers()) do
+				local character = player.Character
+				if character and character:FindFirstChild("Head") then
+					-- إزالة تأثير الرؤية الليلية
+					local nvGui = character.Head:FindFirstChild("NightVision")
+					if nvGui then
+						nvGui:Destroy()
+					end
+	
+					-- إزالة اسم اللاعب
+					local nameTag = character.Head:FindFirstChild("BillboardGui")
+					if nameTag then
+						nameTag:Destroy()
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(HOYFNO_fake_script)()
+local function XGOCCYS_fake_script() -- PART.LocalScript 
+	local script = Instance.new('LocalScript', PART)
+
+	local button = script.Parent -- Button object that will trigger the action
+	local player = game.Players.LocalPlayer
+	local part -- Variable to store the part
+	
+	-- Function when the player clicks the button
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait() -- Get the player's character
+		local rootPart = character:WaitForChild("HumanoidRootPart") -- Get the main part of the character (HumanoidRootPart)
+		local humanoid = character:WaitForChild("Humanoid") -- Get the humanoid (to help with position calculations)
+	
+		-- Check if root part exists, then create the part
+		if rootPart then
+			if part and part.Parent then
+				-- If part already exists, remove it
+				part:Destroy()
+				part = nil
+			else
+				-- Create a new part under the player
+				part = Instance.new("Part")
+				part.Size = Vector3.new(5, 1, 5) -- Set the size of the part
+				part.Position = rootPart.Position - Vector3.new(0, rootPart.Size.Y / 2 + 2.5, 0) -- Position it under the player
+				part.Anchored = true -- Make sure the part doesn't fall due to gravity
+				part.CanCollide = true -- Allow the player to stand on the part
+				part.Parent = workspace -- Parent the part to the workspace
+	
+				-- Update the part's position continuously
+				game:GetService("RunService").Heartbeat:Connect(function()
+					if part then
+						-- Update part position to always be under the player
+						part.Position = rootPart.Position - Vector3.new(0, rootPart.Size.Y / 2 + 2.5, 0)
+					end
+				end)
+			end
+		end
+	end)
+end
+coroutine.wrap(XGOCCYS_fake_script)()
+local function WRWIXCQ_fake_script() -- Bar.LocalScript 
+	local script = Instance.new('LocalScript', Bar)
+
+	local textBox = script.Parent
+	local tweenService = game:GetService("TweenService")
+	
+	local function tweenTransparency(targetTransparency)
+		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+		local tween = tweenService:Create(textBox.UIStroke, tweenInfo, { Transparency = targetTransparency })
+		tween:Play()
+	end
+	
+	textBox.MouseEnter:Connect(function()
+		tweenTransparency(0)
+	end)
+	
+	textBox.MouseLeave:Connect(function()
+		tweenTransparency(1)
+	end)
+	
+	local function setPlayerSpeed()
+		textBox.UIStroke.Enabled = true
+		local speed = tonumber(textBox.Text)
+	
+		if speed and speed >= 1 and speed <= 999999 then
+			local player = game.Players.LocalPlayer
+			local character = player.Character or player.CharacterAdded:Wait()
+			local humanoid = character:FindFirstChildOfClass("Humanoid")
+			if humanoid then
+				humanoid.WalkSpeed = speed
+			end
+		else
+			local player = game.Players.LocalPlayer
+			local character = player.Character or player.CharacterAdded:Wait()
+			local humanoid = character:FindFirstChildOfClass("Humanoid")
+			if humanoid then
+				humanoid.WalkSpeed = 16
+			end
+		end
+	end
+	
+	textBox.FocusLost:Connect(setPlayerSpeed)
+end
+coroutine.wrap(WRWIXCQ_fake_script)()
+local function RHRM_fake_script() -- Bar.LocalScript 
+	local script = Instance.new('LocalScript', Bar)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local enlargeSize = UDim2.new(0.633, 0, 0.209, 0)  -- تكبير بنسبة 10%
+	local normalSize = UDim2.new(0.633, 0, 0.18, 0)     -- الحجم الأصلي
+	
+	local enlargeTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = enlargeSize})
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = normalSize})
+	
+	local BTN = script.Parent
+	local Hover = script.Hover
+	local Click = script.Click
+	
+	button.MouseEnter:Connect(function()
+		enlargeTween:Play()
+		Hover:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	BTN.MouseButton1Click:Connect(function()
+		Click:Play()
+	end)
+	
+end
+coroutine.wrap(RHRM_fake_script)()
+local function MCPY_fake_script() -- Bar_2.LocalScript 
+	local script = Instance.new('LocalScript', Bar_2)
+
+	local textBox = script.Parent
+	local player = game.Players.LocalPlayer
+	local flying = false
+	local speed = 0 
+	local bodyVelocity
+	local bodyGyro
+	
+	local function enableFlying()
+		local character = player.Character
+		if not character or not character:FindFirstChild("HumanoidRootPart") then return end
+	
+		bodyVelocity = Instance.new("BodyVelocity", character.HumanoidRootPart)
+		bodyVelocity.MaxForce = Vector3.new(100000, 100000, 100000)
+		bodyVelocity.Velocity = Vector3.zero
+	
+		bodyGyro = Instance.new("BodyGyro", character.HumanoidRootPart)
+		bodyGyro.MaxTorque = Vector3.new(100000, 100000, 100000)
+		bodyGyro.CFrame = character.HumanoidRootPart.CFrame
+	end
+	
+	local function disableFlying()
+		if bodyVelocity then bodyVelocity:Destroy() end
+		if bodyGyro then bodyGyro:Destroy() end
+	end
+	
+	local function updateMovement()
+		if not flying then return end
+		local character = player.Character
+		if not character or not character:FindFirstChild("HumanoidRootPart") then return end
+	
+		local userInput = game:GetService("UserInputService")
+		local moveDirection = Vector3.zero
+		local rootPart = character.HumanoidRootPart
+	
+		if userInput:IsKeyDown(Enum.KeyCode.W) then
+			moveDirection = moveDirection + rootPart.CFrame.LookVector
+		end
+		if userInput:IsKeyDown(Enum.KeyCode.S) then
+			moveDirection = moveDirection - rootPart.CFrame.LookVector
+		end
+		if userInput:IsKeyDown(Enum.KeyCode.A) then
+			moveDirection = moveDirection - rootPart.CFrame.RightVector
+		end
+		if userInput:IsKeyDown(Enum.KeyCode.D) then
+			moveDirection = moveDirection + rootPart.CFrame.RightVector
+		end
+		if userInput:IsKeyDown(Enum.KeyCode.Space) then
+			moveDirection = moveDirection + Vector3.new(0, 1, 0)
+		end
+		if userInput:IsKeyDown(Enum.KeyCode.LeftShift) then
+			moveDirection = moveDirection - Vector3.new(0, 1, 0)
+		end
+	
+		if moveDirection.Magnitude > 0 then
+			bodyVelocity.Velocity = moveDirection.Unit * speed
+		else
+			bodyVelocity.Velocity = Vector3.zero
+		end
+	end
+	
+	textBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			local input = tonumber(textBox.Text)
+			if input and input >= 1 and input <= 9999999 then
+				speed = input
+				if not flying then
+					flying = true
+					enableFlying()
+				end
+			else
+				flying = false
+				disableFlying()
+			end
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(updateMovement)
+end
+coroutine.wrap(MCPY_fake_script)()
+local function ASALVSM_fake_script() -- Bar_2.LocalScript 
+	local script = Instance.new('LocalScript', Bar_2)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local enlargeSize = UDim2.new(0.633, 0, 0.209, 0)  -- تكبير بنسبة 10%
+	local normalSize = UDim2.new(0.633, 0, 0.18, 0)     -- الحجم الأصلي
+	
+	local enlargeTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = enlargeSize})
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = normalSize})
+	
+	local BTN = script.Parent
+	local Hover = script.Hover
+	local Click = script.Click
+	
+	button.MouseEnter:Connect(function()
+		enlargeTween:Play()
+		Hover:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	BTN.MouseButton1Click:Connect(function()
+		Click:Play()
+	end)
+	
+end
+coroutine.wrap(ASALVSM_fake_script)()
+local function CCXLKEY_fake_script() -- Bar_3.LocalScript 
+	local script = Instance.new('LocalScript', Bar_3)
+
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local textBox = script.Parent
+	
+	player.CharacterAdded:Connect(function(char)
+		character = char
+	end)
+	
+	textBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			local value = tonumber(textBox.Text)
+			if value and value >= 50 and value <= 9999999 then
+				local humanoid = character:FindFirstChildOfClass("Humanoid")
+				if humanoid then
+					humanoid.JumpPower = value
+					print(":", value)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(CCXLKEY_fake_script)()
+local function CIYHD_fake_script() -- Bar_3.LocalScript 
+	local script = Instance.new('LocalScript', Bar_3)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local enlargeSize = UDim2.new(0.633, 0, 0.209, 0)  -- تكبير بنسبة 10%
+	local normalSize = UDim2.new(0.633, 0, 0.18, 0)     -- الحجم الأصلي
+	
+	local enlargeTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = enlargeSize})
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = normalSize})
+	
+	local BTN = script.Parent
+	local Hover = script.Hover
+	local Click = script.Click
+	
+	button.MouseEnter:Connect(function()
+		enlargeTween:Play()
+		Hover:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	BTN.MouseButton1Click:Connect(function()
+		Click:Play()
+	end)
+	
+end
+coroutine.wrap(CIYHD_fake_script)()
+local function DGFDVY_fake_script() -- Bar_4.LocalScript 
+	local script = Instance.new('LocalScript', Bar_4)
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local Frame_2 = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local TextBox = Instance.new("TextBox")
+	local UICorner_2 = Instance.new("UICorner")
+	local TextButton = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local UICorner_4 = Instance.new("UICorner")
+	
+	-- إعداد الـ ScreenGui
+	ScreenGui.Parent = game.CoreGui
+	
+	-- إعداد الـ Frame الأساسي
+	Frame.Parent = ScreenGui
+	Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+	Frame.Position = UDim2.new(0.293939382, 0, 0.35603714, 0)
+	Frame.Size = UDim2.new(0, 223, 0, 141)
+	Frame.Active = true
+	
+	-- إعداد الـ Frame الداخلي
+	Frame_2.Parent = Frame
+	Frame_2.BackgroundColor3 = Color3.fromRGB(47, 49, 59)
+	Frame_2.Position = UDim2.new(0.0358744413, 0, 0.0496453904, 0)
+	Frame_2.Size = UDim2.new(0, 208, 0, 126)
+	
+	-- إضافة الزوايا المدورة للـ Frame
+	UICorner.Parent = Frame_2
+	
+	-- إعداد الـ TextBox
+	TextBox.Parent = Frame_2
+	TextBox.BackgroundColor3 = Color3.fromRGB(31, 31, 40)
+	TextBox.Position = UDim2.new(0.0538115874, 0, 0.112630695, 0)
+	TextBox.Size = UDim2.new(0, 187, 0, 47)
+	TextBox.Font = Enum.Font.GothamBold
+	TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+	TextBox.PlaceholderText = "أدخل النص هنا"
+	TextBox.Text = ""
+	TextBox.TextColor3 = Color3.fromRGB(178, 178, 178)
+	TextBox.TextSize = 18.000
+	TextBox.TextWrapped = true
+	
+	-- إضافة الزوايا المدورة للـ TextBox
+	UICorner_2.Parent = TextBox
+	
+	-- إعداد الـ TextButton
+	TextButton.Parent = Frame_2
+	TextButton.BackgroundColor3 = Color3.fromRGB(31, 31, 40)
+	TextButton.Position = UDim2.new(0.0538115874, 0, 0.579365075, 0)
+	TextButton.Size = UDim2.new(0, 187, 0, 44)
+	TextButton.Font = Enum.Font.GothamBold
+	TextButton.Text = "إرسال الرسالة"
+	TextButton.TextColor3 = Color3.fromRGB(189, 189, 189)
+	TextButton.TextSize = 20.000
+	
+	-- إضافة الزوايا المدورة للـ TextButton
+	UICorner_3.Parent = TextButton
+	
+	-- إضافة الزوايا المدورة للـ Frame الخارجي
+	UICorner_4.Parent = Frame
+	
+	-- إرسال النص إلى الشات عند الضغط على TextButton
+	TextButton.MouseButton1Down:Connect(function()
+		local message = TextBox.Text  -- أخذ النص من TextBox
+		if message ~= "" then  -- التأكد من أن النص ليس فارغًا
+			local args = {
+				[1] = message,  -- النص الذي سيتم إرساله
+				[2] = "All"     -- تحديد أن الرسالة سترسل لجميع اللاعبين
+			}
+	
+			-- إرسال الرسالة عبر الـ Chat
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+			TextBox.Text = ""  -- مسح النص بعد الإرسال
+		end
+	end)
+	
+	-- جعل الـ Frame قابلاً للسحب عبر الشاشة
+	local function makeDraggable()
+		local UserInputService = game:GetService("UserInputService")
+		local TweenService = game:GetService("TweenService")
+	
+		local DragToggle = false
+		local DragStart = nil
+		local StartPosition = nil
+	
+		-- تحديث الموقع عند السحب
+		local function updatePosition(input)
+			local delta = input.Position - DragStart
+			local position = UDim2.new(StartPosition.X.Scale, StartPosition.X.Offset + delta.X, StartPosition.Y.Scale, StartPosition.Y.Offset + delta.Y)
+			TweenService:Create(Frame, TweenInfo.new(0.25), {Position = position}):Play()
+		end
+	
+		-- بدء السحب
+		Frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				DragToggle = true
+				DragStart = input.Position
+				StartPosition = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						DragToggle = false
+					end
+				end)
+			end
+		end)
+	
+		-- متابعة السحب
+		UserInputService.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement then
+				if DragToggle then
+					updatePosition(input)
+				end
+			end
+		end)
+	end
+	
+	makeDraggable()  -- تمكين السحب للـ Frame
+end
+coroutine.wrap(DGFDVY_fake_script)()
+local function ZLOBI_fake_script() -- Bar_4.LocalScript 
+	local script = Instance.new('LocalScript', Bar_4)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local enlargeSize = UDim2.new(0.633, 0, 0.209, 0)  -- تكبير بنسبة 10%
+	local normalSize = UDim2.new(0.633, 0, 0.18, 0)     -- الحجم الأصلي
+	
+	local enlargeTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = enlargeSize})
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = normalSize})
+	
+	local BTN = script.Parent
+	local Hover = script.Hover
+	local Click = script.Click
+	
+	button.MouseEnter:Connect(function()
+		enlargeTween:Play()
+		Hover:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	BTN.MouseButton1Click:Connect(function()
+		Click:Play()
+	end)
+	
+end
+coroutine.wrap(ZLOBI_fake_script)()
+local function OIZJ_fake_script() -- AutoJump.LocalScript 
+	local script = Instance.new('LocalScript', AutoJump)
+
+	local userInputService = game:GetService("UserInputService")
+	local runService = game:GetService("RunService")
+	local button = script.Parent -- الزر المستخدم
+	local isAutoJumpEnabled = false -- خاصية القفز التلقائي معطلة في البداية
+	local isHoldingSpace = false
+	local autoJumpConnection = nil
+	
+	local function autoJump()
+		if isHoldingSpace then
+			local player = game.Players.LocalPlayer
+			local character = player.Character or player.CharacterAdded:Wait()
+			local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+			if humanoid then
+				humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			end
+		end
+	end
+	
+	userInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+		if input.KeyCode == Enum.KeyCode.Space and isAutoJumpEnabled then
+			isHoldingSpace = true
+			if not autoJumpConnection then
+				autoJumpConnection = runService.RenderStepped:Connect(autoJump)
+			end
+		end
+	end)
+	
+	userInputService.InputEnded:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Space then
+			isHoldingSpace = false
+			if autoJumpConnection then
+				autoJumpConnection:Disconnect()
+				autoJumpConnection = nil
+			end
+		end
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		isAutoJumpEnabled = not isAutoJumpEnabled -- تبديل حالة الخاصية
+		if isAutoJumpEnabled then
+			print("Auto Jump Enabled")
+		else
+			print("Auto Jump Disabled")
+			isHoldingSpace = false
+			if autoJumpConnection then
+				autoJumpConnection:Disconnect()
+				autoJumpConnection = nil
+			end
+		end
+	end)
+end
+coroutine.wrap(OIZJ_fake_script)()
+local function ZZIG_fake_script() -- FIRE.LocalScript 
+	local script = Instance.new('LocalScript', FIRE)
+
+	local button = script.Parent -- الزر في واجهة المستخدم (TextButton)
+	
+	button.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+	
+		-- التحقق إذا كانت الشخصية تحتوي على جسم "Humanoid"
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			-- إضافة تأثير Fire
+			local fire = Instance.new("Fire")
+			fire.Color = Color3.fromRGB(0, 255, 0) -- اللون الأخضر
+			fire.SecondaryColor = Color3.fromRGB(0, 255, 0) -- اللون الأخضر في الجوانب
+			fire.Size = 10 -- حجم النار (يمكنك تعديله حسب الحاجة)
+			fire.Heat = 10 -- شدة النار (يمكنك تعديلها)
+	
+			-- إضافة النار إلى جسم "HumanoidRootPart"
+			local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+			if humanoidRootPart then
+				fire.Parent = humanoidRootPart -- إضافة النار إلى الجزء الذي في الجسم
+			end
+		end
+	end)
+end
+coroutine.wrap(ZZIG_fake_script)()
+local function LDEMX_fake_script() -- TdHackD7m_2.Ctrl 
+	local script = Instance.new('LocalScript', TdHackD7m_2)
+
+	local player = game.Players.LocalPlayer
+	local userInputService = game:GetService("UserInputService")
+	local gui = player.PlayerGui:WaitForChild("TdHackD7m")
+	
+	local function onInputBegan(input, gameProcessedEvent)
+		if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == Enum.KeyCode.LeftControl and not gameProcessedEvent then
+			gui.Enabled = not gui.Enabled
+		end
+	end
+	
+	userInputService.InputBegan:Connect(onInputBegan)
+end
+coroutine.wrap(LDEMX_fake_script)()
+local function EWQUX_fake_script() -- textButton.LocalScript 
+	local script = Instance.new('LocalScript', textButton)
+
+	local textButton = script.Parent 
+	local textBox = game.Players.LocalPlayer.PlayerGui:WaitForChild("https://discord.gg/d7m")     
+	
+	textButton.MouseButton1Click:Connect(function()
+		local textToCopy = textBox.Text      
+		if textToCopy ~= "" then
+			setclipboard(https://discord.gg/d7m)
+		end
+	end)
+end
+coroutine.wrap(EWQUX_fake_script)()
+local function TRJOTH_fake_script() -- Text11.LocalScript 
+	local script = Instance.new('LocalScript', Text11)
+
+	script.Parent.Visible = false
+	wait (2.5)  
+	script.Parent.Visible = true
+	wait (8)
+	script.Parent.Visible = false
+end
+coroutine.wrap(TRJOTH_fake_script)()
+local function PUIGB_fake_script() -- TdHackD7m_2.Wait 
+	local script = Instance.new('Script', TdHackD7m_2)
+
+	wait (2)
+	script.Parent.Visible = true
+end
+coroutine.wrap(PUIGB_fake_script)()
+local function IFJYKDR_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	script.Parent.Visible = false
+	wait (2.4)  
+	script.Parent.Visible = true
+	wait (8)
+	script.Parent.Visible = false
+end
+coroutine.wrap(IFJYKDR_fake_script)()
